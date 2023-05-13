@@ -1,0 +1,2 @@
+ccb23f420fb1f78a39647e669c7b0251  fastFashionCompDim.csv
+f684258d2dc30fa6fa8856e94d9c7745  fastFasionItemsDim.csv
