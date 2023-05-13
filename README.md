@@ -6,10 +6,8 @@
 
 
 </p>
-
-
 <br>
-<p align=center style="font-size: 45px;">
+<p align=center style="font-size: 65px;">
 	<b>Zara Ethic Fashion Analysis</b>
 	<br>
 	<br>
@@ -18,7 +16,7 @@
 </p>
 <br>
 
-Description & Content
+Description & Content :information_desk_person:
 -----------------------------------------------
 This project is a simple Data Science analysis based on the _Fast Fashion Eco Commitment Dataset_ available on the `zenodo` public Hub.
 <p align=center>
@@ -27,13 +25,13 @@ This project is a simple Data Science analysis based on the _Fast Fashion Eco Co
 	</a>
 </p>
 
-The first objective of this study is to collect, clean and analyse **spanish Zara items** thought a basic [Exploratory Data Analysis]("EDA.ipynb").
-Next, several models will be created during the [Machine Learning Analysis]("MLA.ipynb") with the aim of predicting whether or not a given garment item has the special Zara **_join life_** ecolabel (_Binary classification_).
+The first objective of this study is to collect, clean and analyse **spanish Zara items** thought a basic [Exploratory Data Analysis]("notebooks/EDA.ipynb").
+Next, several models will be created during the [Machine Learning Analysis]("notebooks/MLA.ipynb") with the aim of predicting whether or not a given garment item has the special Zara **_join life_** ecolabel (_Binary classification_).
 
 <br>
 
 
-Installation
+Installation :computer:
 ------------------------------------------------
 To have a look and manipulate the main dataset, please consider the following steps:
 
@@ -59,21 +57,20 @@ cd join-life-detector/
 ```shell
 pip install -r requirements.txt
 ```
-
 <br>
 
 
-Get started
+Get started :rocket:
 -----------------------------------------------
 
 **_Start the Exploraroty Data Analysis_**
 ```shell
-jupyter notebook EDA.ipynb
+jupyter notebook notebooks/EDA.ipynb
 ```
 
 **_Start the Machine Learning Analysis_**
 ```shell
-jupyter notebook MLA.ipynb
+jupyter notebook notebooks/MLA.ipynb
 ```
 
 **_Start the model interactive dashboard_**
@@ -81,37 +78,41 @@ jupyter notebook MLA.ipynb
 python dashboard.py
 ```
 
+<img src="assets/tuto_dashboard.gif" />
+
 **_Start the model interactive model prediction_**
 ```shell
 python app.py
 ```
 
+<img src="assets/tuto_app.gif" />
+
 <br>
 
 
-Reports
+Reports :bar_chart:
 -----------------------------------------------
 If you are interested to have a quick look on raw data, some reports about datasets are availables:
 
-+ [ZARA items](data/reports/items.html)
-+ [Garment composition](data/reports/compo.html)
++ [ZARA items](data/reports/)
++ [Garment composition](data/reports/)
 
 <br>
 
-Contributing
+Contributing :raising_hand:
 ------------------------------------------------
 Bug reports, code contributions, or improvements to the documentation are welcome from the community. 
 Feel free to suggest improvements by working with your own fork version of `join-life-detector`. Go to the project page and hit the **Fork** button.
 You will want to clone your fork to your machine:
 
 ```shell
-git clone <url_join-life-detector> <join-life-detector-#yourname>
+git clone <url-join-life-detector> <join-life-detector-#yourname>
 cd join-life-detector
 ```
 
 <br>
 
-Ressources
+Ressources :memo:
 -----------------------------------------------
 + [Pandas documentation](https://pandas.pydata.org/docs/)
 + [Plotly documentation](https://plotly.com/python/)
