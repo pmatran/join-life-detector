@@ -168,4 +168,4 @@ catboost_info/
 /flagged
 
 # Mask docx files
-/presentation/*.docx
+*.docx
