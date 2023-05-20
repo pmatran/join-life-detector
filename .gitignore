@@ -166,3 +166,6 @@ catboost_info/
 
 # Application flags
 /flagged
+
+# Mask docx files
+/presentation/*.docx
